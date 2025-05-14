@@ -20,10 +20,10 @@ jobs:
       - name: Clone repo
         uses: actions/checkout@v3
 
-      - name: Install Cybersecurity_Awareness_Bot_PART1.sln
-        uses: Cybersecurity_Awareness_Bot_PART1.sln/setup-Cybersecurity_Awareness_Bot_PART1.sln@v2
+      - name: Install PROG_ST10443029_PART2
+        uses: PROG_ST10443029_PART2/setup-PROG_ST10443029_PART2@v2
         with:
-          Cybersecurity_Awareness_Bot_PART1.sln-version: v2.x
+          PROG_ST10443029_PART2-version: v2.x
 
       - name: Run tests
-        run: "Cybersecurity_Awareness_Bot_PART1.sln test"
+        run: "PROG_ST10443029_PART2 test"
